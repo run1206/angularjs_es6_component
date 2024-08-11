@@ -1,13 +1,14 @@
 export const AppDirective : angular.IComponentOptions = {
     template: require('../templates/app.html').default,
     controller: class AppController {
+        test: number;
         url: string;
-        constructor(){            
-            this.url = 'https://github.com/preboot/angular-webpack';
-        }
+
+        constructor(){}
 
         $onInit(){
-            // debugger;
+            this.url = 'https://github.com/preboot/angular-webpack';
+            this.test = 2;
         }
     }
 };

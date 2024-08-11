@@ -3,7 +3,7 @@
   "scripts": {
     "build": "rimraf ./dist && webpack --bail --progress --profile",
     "start": "webpack serve --open",
-    "serve": "http-server "
+    "serve": "http-server"
   },
   "dependencies": {
     "angular": "^1.8.3",
