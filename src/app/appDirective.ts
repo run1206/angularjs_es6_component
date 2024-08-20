@@ -4,7 +4,8 @@ export const AppDirective : angular.IComponentOptions = {
         test: number;
         url: string;
 
-        constructor(){}
+        constructor(){
+        }
 
         $onInit(){
             this.url = 'https://github.com/preboot/angular-webpack';
